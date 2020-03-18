@@ -1,4 +1,4 @@
-package cloud.frizio.ms.photoapp.photoappapigateway;
+package cloud.frizio.ms.photoapp.api.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableZuulProxy
-public class DemoApplication {
+public class ApiGateway {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(ApiGateway.class, args);
 	}
 
 }
